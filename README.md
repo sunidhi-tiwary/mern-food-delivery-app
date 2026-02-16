@@ -50,3 +50,45 @@ npm run dev
 
 Admin:
 npm run dev
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home Page](screenshots/home.png)
+
+### 📋 Menu Page
+![Menu Page](screenshots/menu.png)
+
+### 🛒 Cart Page
+![Cart Page](screenshots/cart.png)
+
+### 💳 Checkout Page
+![Checkout Page](screenshots/checkout.png)
+
+### 💰 Payment Page
+![Payment Page](screenshots/payment.png)
+
+### 📦 Order Page
+![Order Page](screenshots/order.png)
+
+### 🔐 Login Page
+![Login Page](screenshots/login.png)
+
+### 📝 Signup Page
+![Signup Page](screenshots/signup.png)
+
+### 📱 App Download Page
+![App Download](screenshots/app-download.png)
+
+---
+
+## 🛠 Admin Panel
+
+### ➕ Add Items
+![Admin Add Items](screenshots/admin-add-items.png)
+
+### 📋 List Items
+![Admin List Items](screenshots/admin-list-items.png)
+
+### 📦 Orders Page
+![Admin Orders Page](screenshots/admin-orders-page.png)

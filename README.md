@@ -56,6 +56,12 @@ npm run dev
 ### 🏠 Home Page
 ![Home Page](screenshots/home.png)
 
+### 🔐 Login Page
+![Login Page](screenshots/login.png)
+
+### 📝 Signup Page
+![Signup Page](screenshots/signup.png)
+
 ### 📋 Menu Page
 ![Menu Page](screenshots/menu.png)
 
@@ -70,12 +76,6 @@ npm run dev
 
 ### 📦 Order Page
 ![Order Page](screenshots/order.png)
-
-### 🔐 Login Page
-![Login Page](screenshots/login.png)
-
-### 📝 Signup Page
-![Signup Page](screenshots/signup.png)
 
 ### 📱 App Download Page
 ![App Download](screenshots/app-download.png)

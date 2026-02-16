@@ -1,0 +1,32 @@
+.verify {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+
+.spinner {
+  width: 60px;
+  height: 60px;
+  border: 6px solid #e0e0e0;
+  border-top: 6px solid #ff4c24;
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+  margin-bottom: 15px;
+}
+
+.verify p {
+  font-size: 16px;
+  color: #555;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

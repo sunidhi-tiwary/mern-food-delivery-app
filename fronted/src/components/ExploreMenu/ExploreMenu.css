@@ -1,0 +1,171 @@
+.explore-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 20px; /* Mobile padding */
+}
+
+.explore-menu h1 {
+  color: #262626;
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.explore-menu-text {
+  max-width: 520px;
+  color: #808080;
+  font-size: 16px;
+}
+
+/* LIST */
+.explore-menu-list {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 20px 0 10px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.explore-menu-list::-webkit-scrollbar {
+  display: none;
+}
+
+/* ITEM */
+.explore-menu-list-item {
+  min-width: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+/* PERFECT CIRCLE CONTAINER */
+.explore-menu-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+/* IMAGE INSIDE */
+.explore-menu-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* TEXT */
+.explore-menu-list-item p {
+  margin-top: 8px;
+  color: #262626;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* ACTIVE */
+.explore-menu-img.active {
+  border: 3px solid tomato;
+  padding: 2px;
+}
+
+/* ARROWS UNDER ITEMS */
+.explore-menu-arrows {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.explore-menu-arrows span {
+  cursor: pointer;
+  font-size: 20px;
+  user-select: none;
+}
+
+/* RESPONSIVE */
+
+/* Medium screens */
+@media (max-width: 1050px) {
+  .explore-menu-text {
+    max-width: 100%;
+    font-size: 14px;
+  }
+
+  .explore-menu-list {
+    gap: 15px;
+  }
+
+  .explore-menu-list-item p {
+    font-size: 13px;
+  }
+
+  .explore-menu-img {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  .explore-menu {
+    align-items: center;
+  }
+
+  .explore-menu h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .explore-menu-text {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .explore-menu-list {
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .explore-menu-img {
+    width: 55px;
+    height: 55px;
+  }
+
+  .explore-menu-list-item p {
+    font-size: 12px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .explore-menu {
+    align-items: center;
+  }
+  .explore-menu h1 {
+    font-size: 24px;
+  }
+
+  .explore-menu-text {
+    font-size: 12px;
+  }
+
+  .explore-menu-list {
+    gap: 10px;
+  }
+
+  .explore-menu-img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .explore-menu-list-item p {
+    font-size: 11px;
+  }
+
+  .explore-menu-arrows span {
+    font-size: 18px;
+  }
+}
